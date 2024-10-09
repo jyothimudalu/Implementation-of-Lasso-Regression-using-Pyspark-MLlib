@@ -1,8 +1,4 @@
-# Implementation-of-Lasso-Regression-using-Pyspark-MLlib
-Here’s the content formatted as you requested for your `README.md` file:
-
-```markdown
-# Lasso Regression with PySpark MLlib
+# Implementation of Lasso Regression with PySpark MLlib
 
 ## Overview
 
@@ -31,53 +27,5 @@ You can install PySpark via pip:
 
 ```bash
 pip install pyspark
-```
 
-### How to Run
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/lasso-regression-pyspark.git
-   ```
-2. **Navigate to the project directory**:
-   ```bash
-   cd lasso-regression-pyspark
-   ```
-3. **Open the Jupyter notebook**:
-   ```bash
-   jupyter notebook Lasso_Regression_PySpark_MLlib.ipynb
-   ```
-4. Follow the steps in the notebook to load the dataset, train the Lasso model, tune hyperparameters, and evaluate model performance.
-
-### Usage
-
-1. **Data Preprocessing**: Ensure that your dataset is properly preprocessed:
-   - Handle missing values appropriately.
-   - Encode categorical variables if necessary.
-   - Split data into training and test sets.
-
-2. **Train Lasso Regression Model**: 
-   - Load your dataset and apply Lasso Regression using PySpark MLlib.
-   - Tune the `alpha` parameter to achieve the best balance between underfitting and overfitting.
-
-3. **Evaluate Model**:
-   - Evaluate the trained model using metrics such as Mean Squared Error (MSE) and R-squared.
-   - Analyze the feature importance determined by the Lasso regression.
-
-### Results
-
-The Lasso model performs feature selection while improving prediction accuracy by eliminating irrelevant or redundant variables. The final model will be evaluated on metrics such as:
-- **Mean Squared Error (MSE)**: Measures the average squared difference between the predicted and actual values.
-- **R-squared**: Indicates how well the model fits the data.
-- **Feature Importance**: Identifies the most significant predictors in the model.
-
-### License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
-### Acknowledgments
-
-Special thanks to the PySpark and MLlib communities for providing excellent documentation and resources that made this project possible.
-```
-
-You can now add this content directly to your `README.md` file in your GitHub repository. Remember to replace `yourusername` with your actual GitHub username.
+For further steps refer the above files
